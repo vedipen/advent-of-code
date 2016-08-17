@@ -6,7 +6,7 @@
 int main () {
         using namespace std;
         freopen("../resources/input/input-day1.txt","r",stdin);
-        freopen("output/output-day1.txt","w",stdout);
+        freopen("output/output-day1-part1.txt","w",stdout);
         string input,temp;
         getline(cin,input);
         long before = input.length();

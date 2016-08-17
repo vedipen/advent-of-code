@@ -7,7 +7,8 @@
 int main () {
         using namespace std;
         freopen("../resources/input/input-day1.txt","r",stdin);
-        freopen("output/output-day1.txt","w",stdout);
+        freopen("","",stdin);
+        freopen("output/output-day1-part2.txt","w",stdout);
         string input;
         stack <char> stk;
         getline(cin,input);
